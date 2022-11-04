@@ -1,0 +1,167 @@
+body{
+    zoom: 170%;
+    }
+
+.header {
+    background-color: rgba(114, 59, 7, 0.507);
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    background-image: url("12-2-coffee-png.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid  rgba(136, 81, 36, 0.699);
+    border-radius: 20px;
+    margin-left :30px ;
+    margin-right: 30px;
+
+}
+.header h1{
+
+    padding-top: 10px ;
+    font-size: 55px;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(94, 45, 12);
+    padding-left: 50px;
+   
+}
+.menu{
+    margin: 14px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(119, 59, 19);
+    border-radius: 30px;
+    background-color: rgb(121, 67, 17);
+    padding: 30px;
+   
+}
+.menu a{
+   
+    text-align: center;
+    margin:57px;
+    text-decoration: none;
+    color: rgb(252, 248, 246);
+    font-family: 'Cinzel', serif;
+}
+
+.menu a:hover{
+
+    color:rgb(243, 143, 29) ;
+}
+
+hr{
+    
+    border: 1px solid rgb(136, 65, 25);
+    border-radius: 30px;
+    width: 70%;
+}
+
+ .main{
+
+    margin: 50px;
+ }
+ .main p{
+
+    padding-left: 1px;
+    font-family: 'Cinzel', serif;
+ }
+ 
+.main img {
+    float: left;
+    height: 150px;
+    width: 250px;
+
+}
+.menu2{
+
+    
+    height: 530px;
+    margin-top: 10px;
+    background-image: url("34516-4-black-border-frame-picture.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.menu2 ul{
+
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-right: 30px;
+    font-family: 'Cinzel', serif;
+}
+
+.menu2  dd{
+
+    margin: 10px;
+}
+body{
+    background-color: rgba(117, 56, 15, 0.432);
+    margin: 0px;
+}
+.menu2 li{
+    margin: 5px;
+}
+ h3{
+
+    text-align: center;
+    margin: 20px;
+     font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: rgb(80, 38, 14);
+    
+}
+.order{
+    margin: 50px;
+
+    height: 190px;
+}
+.order img {
+    float: left;
+    height: 200px;
+    margin-left: 40px;
+}
+.order h3{
+
+    font-family: 'Sacramento', cursive;
+}
+.footer{
+
+    margin-top: 70px;
+    margin-bottom: 0px;
+    height: 170px;
+    background-color: rgb(49, 22, 3);
+    text-align: center;
+    
+    
+
+}
+.footer button {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    margin-top: 30px;
+    align-items: center;
+    background-color: rgb(44, 10, 10);
+    border: 1px solid rgb(199, 112, 42);
+    border-radius: 60px;
+    padding: 6px;
+    color: rgb(199, 112, 42);
+    text-align: center;
+
+    
+}
+
+
+.footer p{
+
+    color: rgb(199, 112, 42);
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+  

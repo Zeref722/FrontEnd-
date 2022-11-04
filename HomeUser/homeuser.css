@@ -1,0 +1,116 @@
+body{
+
+    background-color: rgb(197, 191, 191);
+}
+
+.headbw{
+   
+     
+    background-color: #000000;
+    
+    
+} 
+.headbw h1 {
+    font-family: 'Cinzel', serif;
+font-family: 'Gulzar', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Prata', serif;
+font-size: 40px;
+letter-spacing: 2px;
+word-spacing: 8px;
+}
+
+
+
+ .slideshow{
+    width: 100%;
+    margin: 0;
+}
+.navbw{
+    margin-top: 5px;
+    background-color: #120f17;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    font-family: 'Cinzel', serif;
+   font-family: 'Gulzar', serif;
+   font-family: 'Prata', serif;
+   
+   
+}
+
+.cat1 a {
+    margin-left: 110px;
+    width: 590px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  
+    
+
+}
+.cat2 a {
+
+    width: 590px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.cat3 a {
+
+    width: 590px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+   
+    
+    
+}
+.footer{
+
+    
+    margin-bottom: 0px;
+    height: 170px;
+    background-color: rgb(21, 9, 29);
+    text-align: center;
+    
+    
+
+}
+
+
+
+.footer {
+    
+   color: rgb(255, 255, 255);
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.h4{  
+
+    padding-top: 20px;
+}
+.any
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 15px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    background-color: rgb(21, 9, 29);
+    color: white;
+
+
+
+
+
+
+
+
+
+}

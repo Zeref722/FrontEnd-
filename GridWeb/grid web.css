@@ -1,0 +1,193 @@
+
+
+
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+
+    background-color: #ccc;
+    line-height: 1.6;
+
+
+}
+.btn{
+    background:#333 ;
+    color: #fff;
+    padding: 0.6rem  1.3rem ;
+    text-decoration: none;
+    border: 0;
+
+
+}
+img{
+
+    max-width: 100%;
+
+
+}
+.menu ul {
+
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr) ;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+
+
+ }
+
+ .menu  a{
+
+    background: #fff;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: #333;
+    font-size: 1.1rem;
+    
+ }
+
+ .menu a:hover{
+
+    background:#333 ;
+    color: #fff;
+ }
+
+ .big-container{
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    ' showcase showcase top-box1 '
+    '  showcase  showcase  top-box2 '
+   
+
+ }
+   
+ .showcase {
+
+    grid-area: showcase;
+    min-height: 400px;  
+    background: url(buissness2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: #fff;
+   }
+
+   .showcase h1{
+      color: rgb(240, 233, 233);
+      line-height: 90px;
+      font-size: 3rem ;
+      font-family: Orbitron;
+      margin-bottom: 0;
+      text-align: center;
+      
+
+} 
+
+.showcase p{
+
+   color: #fff;
+      font-family: Variable axes;
+      font-size: 1.5rem;
+
+}
+.top-box1
+{
+
+   font-size: 1.3ren;
+   margin-top: 0;
+
+   justify-content: center;
+   text-align: center;
+
+}
+.top-box2{
+   justify-content: center;
+   text-align: center;
+
+}
+
+
+
+ .top-box1{
+
+    grid-area: top-box1;
+
+ }
+ .top-box2{
+
+    grid-area: top-box2;
+ }
+   
+ .top-box{
+    background: #ddd;
+    display: grid;
+    align-items: center;
+    justify-content: center ;
+    box-shadow: #333;
+    padding: 1.5rem;
+
+ }
+
+ .top-box .price {
+
+   font-size: 2rem;
+
+
+
+ }
+.boxes1{
+  
+   
+
+  padding: 2rem;
+
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat( auto-fit, minmax(200px,1fr)   )
+   
+   
+}
+
+.box{
+
+   text-align: center;
+   background: #ddd;
+   padding: 1.5rem 2rem  ;
+   box-shadow: #333;
+
+}
+.info{
+
+   background: #ddd;
+   box-shadow: #333;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr );
+   grid-gap: 30px;
+   padding: 3rem;
+   text-align: center;
+
+
+}
+.info img{
+
+   min-width: 200px;
+
+}
+.footer{
+  border: 1px black solid;
+  padding: 20px;
+   text-align: center;
+
+}

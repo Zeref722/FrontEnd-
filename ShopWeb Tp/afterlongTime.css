@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(225, 224, 224);
+}
+
+.Boxy{
+    background-color: black;
+    
+}
+.navbar {
+    background-color: black;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.tetxee  {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    padding: 30px;
+    border-radius: 30px;
+  }
+  .textee{
+    font-size: 40px;
+    font-family: 'IBM Plex Serif', serif;
+  }
+  .imageee{
+    margin-top: 30px;
+    
+  }
+  .letest-shop{
+    position: relative;
+    left: 22%;
+  }
+  .Texted {
+    color: black;
+  }
+  .prize{
+    color: gray;
+    font-size: 20px;
+
+    
+    
+  }
+
+  .middle{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  .middle:hover{
+    opacity: 0.3;
+  }
+  .zoom-img {
+    width: 300px;
+    height:auto;
+    overflow: hidden;
+  }
+  
+  .zoom-img  img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+  }
+  
+  .zoom-img img:hover   {
+    transform: scale(1.2);
+  }
+  .footer p {
+    padding-top: 50px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+ 
+    .footer{
+
+      margin-top: 70px;
+      margin-bottom: 0px;
+      height: 170px;
+      background-color: black;
+      text-align: center;
+      
+      
+  
+  }
+  
